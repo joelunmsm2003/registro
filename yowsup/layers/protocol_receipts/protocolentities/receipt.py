@@ -29,6 +29,8 @@ class ReceiptProtocolEntity(ProtocolEntity):
     def __str__(self):
         out  = "Receipt:\n"
         out += "ID: %s\n" % self._id
+
+        print 'receip...',out
         return out
 
     @staticmethod

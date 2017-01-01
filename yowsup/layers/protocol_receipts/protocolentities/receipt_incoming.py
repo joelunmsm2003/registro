@@ -97,6 +97,8 @@ class IncomingReceiptProtocolEntity(ReceiptProtocolEntity):
             out += "Participant: %s\n" % (self.participant)
         if self.items is not None:
             out += "Items: %s\n" % " ".join(self.items)
+
+        print 'out',out
         return out
 
     def ack(self):

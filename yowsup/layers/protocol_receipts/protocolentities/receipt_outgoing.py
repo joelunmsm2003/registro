@@ -75,6 +75,8 @@ class OutgoingReceiptProtocolEntity(ReceiptProtocolEntity):
         if self.read:
             out += "Type: \n%s" % "read"
         out += "For: \n%s" % self.messageIds
+
+        print 'Outgoing....',out
         return out
 
     @staticmethod
