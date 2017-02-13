@@ -13,6 +13,11 @@ from yowsup.stacks import YowStack, YOWSUP_CORE_LAYERS
 from yowsup.layers.axolotl import YowAxolotlLayer
 from yowsup.env import YowsupEnv
 
+'''
+Esto es un comentario
+
+'''
+
 
 CREDENTIALS = ("51971254149", "V2zTjG0t7Q76jMbmgWepU8scAO4=")
 
